@@ -64,15 +64,6 @@
 		height: 100%;
 	}
 
-	background {
-    width: 2560px;
-    height: 1600px;
-    background-image: url("../../images/bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-	}
-
 		body.is-preload:after {
 			opacity: 1;
 		}
@@ -475,7 +466,7 @@
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0em;
 		}
 
 		ul.alt {
