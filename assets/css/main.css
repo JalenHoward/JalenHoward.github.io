@@ -109,9 +109,13 @@
 		height: 100%;
 	}
 
-	body {
-		height: 100%;
-		background-image: url("../../images/bg.png");
+	body{
+    width: 150px;
+    height: 100px;
+    background-image: url("../../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 	}
 
 		body.is-preload:after {
