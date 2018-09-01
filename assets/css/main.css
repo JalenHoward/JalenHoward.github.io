@@ -112,9 +112,6 @@
 	body {
 		height: 100%;
 		background-image: url("../../images/bg.png");
-		background-image: url("../../images/bg.png");
-		background-image: url("../../images/bg.png");
-		background-image: url("../../images/bg.png");
 	}
 
 		body.is-preload:after {
