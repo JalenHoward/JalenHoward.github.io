@@ -100,7 +100,7 @@
 		height: 100%;
 	}
 
-	.container{
+	background {
     width: 2560px;
     height: 1600px;
     background-image: url("../../images/bg.png");
