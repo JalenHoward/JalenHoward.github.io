@@ -101,8 +101,8 @@
 	}
 
 	.container{
-    width: 150px;
-    height: 100px;
+    width: 2560px;
+    height: 1600px;
     background-image: url("../../images/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
