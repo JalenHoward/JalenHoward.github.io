@@ -721,7 +721,7 @@
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
-		opacity: 0.0;
+		opacity: 1.0; /* opacity of entire block once fadein occurs */
 		position: relative;
 		text-align: center;
 		width: 27em;
