@@ -772,16 +772,40 @@
 			opacity: 0;
 		}
 
-/* Footer */
+/* Wrapper */
 
-	#footer {
-		-moz-align-self: -moz-flex-end;
-		-webkit-align-self: -webkit-flex-end;
-		-ms-align-self: -ms-flex-end;
-		align-self: flex-end;
-		width: 100%;
-		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.75);
-		cursor: default;
-		text-align: center;
+	#wrapper {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-perspective: 1000px;
+		-webkit-perspective: 1000px;
+		-ms-perspective: 1000px;
+		perspective: 1000px;
+		position: relative;
+		min-height: 100%;
+		padding: 1.5em;
+		z-index: 2;
 	}
+
+		#wrapper > * {
+			z-index: 1;
+		}
+
+		#wrapper:before {
+			content: '';
+			display: block;
+		}
