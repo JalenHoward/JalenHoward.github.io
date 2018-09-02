@@ -68,7 +68,7 @@
 	}
 
 		body.is-preload:after {
-			opacity: 0.00;
+			opacity: 0.5;
 		}
 
 /* Type */
@@ -329,22 +329,22 @@
 
 	::-webkit-input-placeholder {
 		color: #616f77 !important;
-		opacity: 0;
+		opacity: 0.5;
 	}
 
 	:-moz-placeholder {
 		color: #616f77 !important;
-		opacity: 0;
+		opacity: 0.5;
 	}
 
 	::-moz-placeholder {
 		color: #616f77 !important;
-		opacity: 0;
+		opacity: 0.5;
 	}
 
 	:-ms-input-placeholder {
 		color: #616f77 !important;
-		opacity: 0;
+		opacity: 0.5;
 	}
 
 /* Icon */
@@ -721,7 +721,7 @@
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
-		opacity: 0;
+		opacity: 0.5;
 		position: relative;
 		text-align: center;
 		width: 27em;
@@ -771,7 +771,7 @@
 			-webkit-transform: rotateX(15deg);
 			-ms-transform: rotateX(15deg);
 			transform: rotateX(15deg);
-			opacity: 0;
+			opacity: 0.5;
 		}
 
 /* Footer */
