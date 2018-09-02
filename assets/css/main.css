@@ -329,22 +329,22 @@
 
 	::-webkit-input-placeholder {
 		color: #616f77 !important;
-		opacity: 1.0;
+		opacity: 0;
 	}
 
 	:-moz-placeholder {
 		color: #616f77 !important;
-		opacity: 1.0;
+		opacity: 0;
 	}
 
 	::-moz-placeholder {
 		color: #616f77 !important;
-		opacity: 1.0;
+		opacity: 0;
 	}
 
 	:-ms-input-placeholder {
 		color: #616f77 !important;
-		opacity: 1.0;
+		opacity: 0;
 	}
 
 /* Icon */
